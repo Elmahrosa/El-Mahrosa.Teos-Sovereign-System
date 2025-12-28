@@ -1,0 +1,31 @@
+{
+  "name": "elmahrosa-teos-sovereign-system",
+  "version": "1.0.0",
+  "description": "Compliance-first sovereign blockchain backbone for TEOS Egypt, aligned with UN SDGs.",
+  "main": "src/sovereignCore.js",
+  "scripts": {
+    "start": "node src/sovereignCore.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "sovereign",
+    "blockchain",
+    "compliance",
+    "treasury",
+    "SDG",
+    "Egypt"
+  ],
+  "author": "Ayman Seif",
+  "license": "PolyFormNC+TESL",
+  "dependencies": {
+    "express": "^4.18.2",
+    "solana-web3.js": "^1.95.3",
+    "dotenv": "^16.3.1",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  }
+}
