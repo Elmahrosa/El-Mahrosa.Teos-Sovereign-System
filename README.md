@@ -1,6 +1,6 @@
 
 # 🌍 El-Mahrosa.Teos-Sovereign-System
-
+![License: PolyForm NC + TESL](https://img.shields.io/badge/License-PolyFormNC%20%2B%20TESL-gold)
 ![CI](https://github.com/Elmahrosa/El-Mahrosa.Teos-Sovereign-System/actions/workflows/ci.yml/badge.svg)
 [![License](https://img.shields.io/github/license/Elmahrosa/El-Mahrosa.Teos-Sovereign-System)](LICENSE)
 ![GitHub issues](https://img.shields.io/github/issues/Elmahrosa/El-Mahrosa.Teos-Sovereign-System)
