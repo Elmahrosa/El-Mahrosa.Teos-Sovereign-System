@@ -26,6 +26,11 @@ Compliance-first, audit-ready, and aligned with UN SDGs and Egypt’s Vision 203
 
 ## 🏛 Overview
 El-Mahrosa.Teos-Sovereign-System is the sovereign backbone of TEOS Egypt — enforcing governance, compliance, and civic-first infrastructure. It provides modules for treasury, SDG mapping, and compliance automation, with audit transparency baked in.
+## 🔗 Ecosystem
+- Developer docs: `README.DEV.md`
+- Presale portal: `teospump-presale.vercel.app`
+- Holder verification: `Solscan snapshot integration (runtime)`
+- Founder wallet: `Akvm3CbND...ZhbF (admin treasury)`
 
 ---
 
