@@ -1,0 +1,39 @@
+meta:
+  name: "El-Mahrosa Sovereign System"
+  version: "1.0.0"
+  owner: "Elmahrosa International / TEOS Egypt"
+  sovereign_statement: "He who owns the sovereign infrastructure sets the rules."
+
+network:
+  cluster: "devnet"
+  rpc_url: "https://api.devnet.solana.com"
+  timeout_ms: 30000
+
+treasury:
+  base_currency: "EGP"
+  staking_enabled: true
+  min_stake_amount: 100
+  reserves_policy: "Non-custodial; audit-logged; civic-first allocation"
+
+compliance:
+  dco_required: true
+  audit_logging: true
+  sdg_mapping: true
+  immutable_releases: true
+
+governance:
+  contributors_verified: true
+  license: "PolyFormNC+TESL"
+  enforcement_contact: "conduct@elmahrosa.eg"
+
+sdg:
+  modules:
+    - name: "Treasury"
+      sdg_targets: ["SDG 8", "SDG 9"]
+      metrics: ["Non-custodial staking participation", "Reserve transparency index"]
+    - name: "Compliance"
+      sdg_targets: ["SDG 16"]
+      metrics: ["Verified contributor ratio", "DCO adherence rate"]
+    - name: "Governance"
+      sdg_targets: ["SDG 17"]
+      metrics: ["Institution integrations", "Incident response time"]
