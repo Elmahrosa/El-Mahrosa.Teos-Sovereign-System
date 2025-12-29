@@ -35,31 +35,40 @@ El-Mahrosa.Teos-Sovereign-System is the sovereign backbone of TEOS Egypt — enf
 ---
 
 ## 📁 Repository structure
-```
-El-Mahrosa.Teos-Sovereign-System/
-├── README.md
-├── LICENSE
-├── SECURITY.md
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── .gitignore
-├── config/
-│   └── example.settings.yml
-├── src/
-│   ├── sovereignCore.js
-│   ├── modules/
-│   │   ├── compliance.js
-│   │   ├── treasury.js
-│   │   └── sdgMapping.js
-│   └── utils/
-│       └── audit.js
-├── tests/
-│   └── sovereign.test.js
-├── docs/
-│   └── architecture.md
-└── .github/
-    └── workflows/
-        └── ci.yml
+```El-Mahrosa.Teos-Sovereign-System/
+├─ README.md                    # Investor-facing overview (with links to Dev README)
+├─ README.DEV.md                # Developer-facing quickstart and docs
+├─ LICENSE                      # Dual-license notice (PolyForm NC + TESL)
+├─ CODE_OF_CONDUCT.md           # Adapted for sovereign mission alignment
+├─ CONTRIBUTING.md              # Verified contributors, DCO, SDG mapping
+├─ SECURITY.md                  # Vulnerability reporting and disclosure
+├─ .gitignore                   # Hygiene and secrets
+├─ .env                         # Local environment
+├─ package.json                 # Node project manifest
+├─ config/
+│  ├─ example.settings.yml      # Copyable example
+│  └─ settings.yml              # Operational config (gitignored)
+├─ src/
+│  ├─ sovereignCore.js          # App entry with module mounting
+│  ├─ modules/
+│  │  ├─ compliance.js          # Compliance gates (DCO, verified, audit)
+│  │  ├─ treasury.js            # Treasury endpoints (status, stake intent)
+│  │  └─ sdgMapping.js          # SDG registry utilities and endpoints
+│  └─ utils/
+│     └─ auditLogger.js         # File-based audit log (logs/audit.log)
+├─ logs/
+│  └─ audit.log                 # Created at runtime
+├─ tests/
+│  ├─ compliance.test.js        # Middleware tests
+│  ├─ treasury.test.js          # Treasury tests
+│  └─ sdg.test.js               # SDG mapping tests
+├─ docs/
+│  ├─ architecture.md           # Diagrams and flow
+│  └─ whitepaper.md             # Sovereign governance whitepaper section
+└─ .github/
+   └─ workflows/
+      └─ ci.yml                 # CI: install, lint, test
+
 ```
 
 ---
