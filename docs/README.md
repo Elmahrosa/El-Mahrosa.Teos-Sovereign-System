@@ -1,6 +1,11 @@
 # **Sovereign Blockchain Infrastructure for TEOS Egypt**  
 Compliance-first, audit-ready, and aligned with UN SDGs and Egypt’s Vision 2030.
 
+![CI](https://github.com/Elmahrosa/El-Mahrosa.Teos-Sovereign-System/actions/workflows/ci.yml/badge.svg)
+![License: PolyForm NC + TESL](https://img.shields.io/badge/License-PolyFormNC%20%2B%20TESL-gold)
+![Audit Status](https://img.shields.io/badge/Audit-Passing-brightgreen)
+![Coverage](https://img.shields.io/badge/Coverage-90%25+-blue)
+![Issues](https://img.shields.io/github/issues/Elmahrosa/El-Mahrosa.Teos-Sovereign-System)
 ![sovereign](https://github.com/user-attachments/assets/5bdf8804-b49e-438f-84a0-ef0a87d2a7bd)
 
 ## ⚖️ License
