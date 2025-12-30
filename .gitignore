@@ -24,3 +24,22 @@ target/
 __pycache__/
 *.pyc
 *.log
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+
+# Env
+.env
+config/settings.yml
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# OS/Editor
+.DS_Store
+.vscode/
