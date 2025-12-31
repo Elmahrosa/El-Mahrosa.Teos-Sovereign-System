@@ -1,4 +1,4 @@
-# License Summary — El‑Mahrosa.Teos‑Sovereign‑System
+# License Summary — El‑Mahrosa.Teos-Sovereign‑System
 
 This project is licensed under:
 
