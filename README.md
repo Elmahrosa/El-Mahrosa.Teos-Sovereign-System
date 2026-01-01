@@ -1,5 +1,9 @@
 # 🏛 El-Mahrosa Sovereign System  
-## **TEOS Egypt**
+## **TEOS Egypt**  
+## 🌍 Vision & Sovereignty
+
+TEOS Egypt is engineered as **Egypt’s sovereign digital backbone**, aligned with **Egypt Vision 2030** and the **United Nations Sustainable Development Goals (SDGs)**.  
+Each module represents a **verifiable milestone** in building trusted civic Digital Public Infrastructure (DPI), designed for **banks, regulators, and governments** to adopt with confidence.
 
 ![Compliance](https://img.shields.io/badge/Compliance-Strict-blue)  
 ![Audit](https://img.shields.io/badge/Audit-Ready-green)  
@@ -10,169 +14,181 @@
 
 ---
 
-**El-Mahrosa Sovereign System (TEOS Egypt)** is a **national-grade, sovereign blockchain infrastructure framework** engineered to support **Digital Public Infrastructure (DPI)**, regulated institutions, and government-scale distributed systems.
+## 🧠 Framework Overview
 
-The framework delivers **full digital sovereignty, immutable governance, regulatory compliance, and multi-chain interoperability**—while preserving **national authority, data ownership, and execution control**.
+**El-Mahrosa Sovereign System (TEOS Egypt)** is a **national-grade, chain-agnostic blockchain infrastructure framework** built to power:
+
+- **Government-scale distributed systems**
+- **Regulated financial and institutional networks**
+- **Digital Public Infrastructure (DPI) services**
+- **Sovereign smart contract execution layers**
+
+The system ensures **full digital sovereignty, immutable governance, regulatory compliance, and secure multi-chain interoperability**—without surrendering national authority, data ownership, or operational control.
 
 ---
 
 ## 🔑 Core Capabilities
 
-- 🏛 **Civic-first Digital Infrastructure (DPI) backbone**
-- 📜 **Sovereign Smart Contracts** (Solana Anchor / Rust core)
-- 🔍 **Compliance & Audit APIs** for institutions and regulators
-- 🛠 **Typed Developer SDKs** (Rust & TypeScript) with shared governance schemas
-- 🔗 **Cross-chain adapters** for EVM and non-EVM networks
-- 🔐 **Founder-authorized deployment and integration model**
+- **Civic-first DPI architecture**
+- **Sovereign Smart Contracts** (Solana Anchor / Rust core)
+- **Compliance & Audit APIs** for regulators and institutions
+- **Typed SDK Toolchain** (Rust & TypeScript) with shared governance schemas
+- **Cross-chain adapters** (EVM & non-EVM)
+- **Permissioned deployment model** controlled exclusively by the Founder
+- **Interoperability layers** supporting major global public chains
 
 ---
 
-## ⚠️ Demo Environment Notice
+## ⚠️ Demo Environment Disclosure
 
-All public showcases are deployed on **Pi Network (PiNet)** for **UX validation, secure demonstration, and institutional review only**.
+All public showcases run on **Pi Network (PiNet)** strictly for:
 
-The sovereign system core remains **chain-agnostic** and production-ready for deployment on:
+- Secure demonstration
+- UX validation
+- Institutional review
+- Ecosystem prototyping
+
+The core sovereign system remains **chain-agnostic and production-ready** for audited deployment on:
 
 - Solana
 - Ethereum
 - BNB Chain
 - Polygon
 - Bitcoin
-- Any audited EVM or non-EVM network via secure interoperability layers
+- Any EVM or non-EVM chain via certified bridges
 
 ---
 
-## 📚 Table of Contents
+## 🇪🇬 Engineering Origin & Global Scope
 
-1. [Sovereign Usage Policy](#-sovereign-usage-policy)
-2. [Live Integrity & Compliance Dashboard](#-live-integrity--compliance-dashboard)
-3. [17 DApp Demo Showcases (PiNet)](#-17-dapp-demo-showcases-pinet)
-4. [Architecture & Core Modules](#-architecture--core-modules)
-5. [DApp Classification Model](#-dapp-classification-model)
-6. [Interoperability](#-interoperability)
-7. [Security Policy](#-security-policy)
-8. [Founder & Authority](#-founder--authority)
-9. [License & IP Enforcement](#-license--ip-enforcement)
+**Engineered in Egypt. Built for global-scale trust and adoption.**
+
+```mermaid
+---
+title: "Engineered in Egypt → Global Sovereign Infrastructure"
+---
+flowchart TD
+    Citizens["Citizens & Institutions"] 
+    Wallets["Sovereign Wallet Layer"]
+    CivicMixer["TEOS Civic Mixer"]
+    BankChain["TEOS BankChain (Regulated Core)"]
+    ComplianceAPIs["Compliance & Audit APIs"]
+    Regulators["National & Global Regulators"]
+    SmartContracts["Sovereign Smart Contracts"]
+    Interoperability["Interoperability Layer"]
+    MultiChain["Public Multi-Chain Networks"]
+
+    Citizens --> Wallets
+    Wallets --> CivicMixer
+    CivicMixer --> BankChain
+    BankChain --> Regulators
+    BankChain --> ComplianceAPIs --> Regulators
+    SmartContracts --> Interoperability --> MultiChain
+````
 
 ---
 
-## 🛑 Sovereign Usage Policy
+## 📚 Documentation Index
 
-All repositories under **El-Mahrosa International & TEOS Egypt** are protected by **Sovereign Intellectual Property Rights**.
-
-### 🚫 Unauthorized actions include:
-- Forking, deploying, modifying, redistributing, or integrating any component
-- Commercial or institutional use
-- Financial, payment, banking, or national infrastructure deployment
-- Smart contract redeployment or API integration
-
-### 📩 Authorization is granted exclusively by the Founder:
-**Ayman Seif** — Chief Architect, El-Mahrosa International  
-📧 `ayman@teosegypt.com`  
-📞 `+20 100 616 7293`
+| Document          | Description                                           |
+| ----------------- | ----------------------------------------------------- |
+| `README.md`       | Investor-grade system overview                        |
+| `README.DEV.md`   | Developer quick-start, SDK usage, API reference       |
+| `architecture.md` | System design, modules, and sovereign execution model |
+| `SECURITY.md`     | Responsible disclosure and security classification    |
+| `LICENSE`         | Dual sovereign licensing (PolyForm NC + TESL)         |
 
 ---
 
-## 📊 Live Integrity & Compliance Dashboard
+## 🛡 DApp Classification Model
 
-| Indicator | Status |
-|---|---|
-| CI/CD | ![CI](https://img.shields.io/github/actions/workflow/status/Elmahrosa/El-Mahrosa.Teos-Sovereign-System/ci.yml?branch=main&label=CI%2FCD&logo=github) |
-| Issues | ![Issues](https://img.shields.io/github/issues/Elmahrosa/El-Mahrosa.Teos-Sovereign-System) |
-| Stars | ![Stars](https://img.shields.io/github/stars/Elmahrosa/El-Mahrosa.Teos-Sovereign-System?style=social) |
-| Security | ![Security](https://img.shields.io/badge/Security-Audit_Ready-orange) |
-| License | ![License](https://img.shields.io/badge/License-PolyForm_NC_+_TESL-gold) |
+| Status        | Description                           | Deployment Rights    |
+| ------------- | ------------------------------------- | -------------------- |
+| **Core**      | Security-critical sovereign modules   | Restricted           |
+| **Prototype** | Active R&D, non-public infrastructure | Authorized only      |
+| **Demo**      | Public showcase and UX validation     | No deployment rights |
+| **Concept**   | Design reference                      | No execution         |
+| **Archived**  | Legacy modules                        | Not maintained       |
+
+---
+
+## 📊 Live Integrity & Compliance
+
+| Metric   | Status                                                                                                                                                 |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| CI/CD    | ![CI](https://img.shields.io/github/actions/workflow/status/Elmahrosa/El-Mahrosa.Teos-Sovereign-System/ci.yml?branch=main\&label=CI%2FCD\&logo=github) |
+| Issues   | ![Issues](https://img.shields.io/github/issues/Elmahrosa/El-Mahrosa.Teos-Sovereign-System)                                                             |
+| Stars    | ![Stars](https://img.shields.io/github/stars/Elmahrosa/El-Mahrosa.Teos-Sovereign-System?style=social)                                                  |
+| Security | ![Security](https://img.shields.io/badge/Security-Audit_Ready-orange)                                                                                  |
+| License  | ![License](https://img.shields.io/badge/License-PolyForm_NC_+_TESL-gold)                                                                               |
 
 🔗 **GitHub Sovereign Network:** `Elmahrosa` organization
 
 ---
 
-## 🚀 17 DApp Demo Showcases (PiNet)
+## 🚀 PiNet Demo Suite — 17 DApps
 
-| # | DApp | Purpose | GitHub | ⭐ Stars | PiNet Demo | SDG |
-|---:|---|---|---|---|---|---|
-| 1 | TEOS Civic Mixer | Wallet analytics & token routing | [Repo](Elmahrosa/Teos-Civic-Mixer) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Teos-Civic-Mixer) | `civic-mixer` | 10 |
-| 2 | ASK TEOS AI | AI gateway to sovereign chains | [Repo](Elmahrosa/Ask-Teos-AI) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Ask-Teos-AI) | `ask-teos-ai` | 16 |
-| 3 | MINE-TEOS | Civic mining & validator UX | [Repo](Elmahrosa/TEOS-MINER-TELEGRAM-BOT) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/TEOS-MINER-TELEGRAM-BOT) | `mine-teos` | 8 |
-| 4 | TEOS BankChain | Regulated financial backbone | [Repo](Elmahrosa/Teos-Bankchain) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Teos-Bankchain) | `bankchain` | 9 |
-| 5 | TEOS Pi Taxi | Pi mobility & payments | [Repo](Elmahrosa/TeosPiTaxi) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/TeosPiTaxi) | `pi-taxi` | 11 |
-| 6 | Civic Ledger | Governance audit chain | [Repo](Elmahrosa/International-Civic-Blockchain-Constitution) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/International-Civic-Blockchain-Constitution) | `civic-ledger` | 16 |
-| 7 | TEOS Smart City | DPI identity + Pi payments | [Repo](Elmahrosa/Teos-Pi-Smart-City) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Teos-Pi-Smart-City) | `smart-city` | 11 |
-| 8 | Bank of Pi Egypt | Regulated Pi banking UX | [Repo](Elmahrosa/Teos-Bankchain-Mobile) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Teos-Bankchain-Mobile) | `bank-of-pi` | 9 |
-| 9 | eMap of Pi | Pi ecosystem intelligence map | [Repo](Elmahrosa/Elmahrosa-Map-of-PI) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Elmahrosa-Map-of-PI) | `map-of-pi` | 9 |
-|10 | TEOS Wallet | Sovereign non-custodial wallet | [Repo](Elmahrosa/TeosWallet) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/TeosWallet) | `teos-wallet` | 10 |
-|11 | Nilex DEX | Civic DEX with TEOS liquidity | [Repo](Elmahrosa/Nilex) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Nilex) | `nilex` | 8 |
-|12 | TEOS Pump | Egyptian cultural token launchpad | [Repo](Elmahrosa/TeosPump) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/TeosPump) | `teos-pump` | 11 |
-|13 | TGR Gold Reserve | Gold-backed civic token | [Repo](Elmahrosa/Teos-Gold-Reserve) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Teos-Gold-Reserve) | `tgr` | 12 |
-|14 | Elmahrosa Mining | Validator transparency layer | [Repo](Elmahrosa/Elmahrosa-Mining-App) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Elmahrosa-Mining-App) | `mining` | 8 |
-|15 | FPBE Pi Misr Bank | National Pi compliance layer | [Repo](Elmahrosa/FPBE-First-Pimisr-Bank-Elmahrosa) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/FPBE-First-Pimisr-Bank-Elmahrosa) | `pi-misr-bank` | 9 |
-|16 | TEOS NFT Generator | Pi-native NFT minting + AI assets | [Repo](Elmahrosa/TEOS-NFT-AI-Generator) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/TEOS-NFT-AI-Generator) | `teos-nft` | 9 |
-|17 | Civic Gaza | Identity & reconstruction registry | [Repo](Elmahrosa/Digital-Reconstruction-of-Gaza) | ![Stars](https://img.shields.io/github/stars/Elmahrosa/Digital-Reconstruction-of-Gaza) | `civic-gaza` | 16 |
-
----
-
-## 🧱 Architecture & Core Modules
-
-```
-
-El-Mahrosa.Teos-Sovereign-System/
-├─ .github/        # CI/CD & audit pipelines
-├─ src/            # Governance logic & DPI modules
-├─ contracts/      # Sovereign smart contracts
-├─ bridges/        # Multi-chain interoperability
-├─ config/         # Private sovereign configs (ignored)
-├─ docs/           # Architecture, policies, API refs
-├─ tests/          # Compliance & integrity validation
-├─ SECURITY.md     # Responsible disclosure policy
-└─ LICENSE         # Dual sovereign licensing
-
-```
+|  # | DApp               | Purpose                          | GitHub                                        | ⭐                                                                                               | PiNet Demo     | SDG |
+| -: | ------------------ | -------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------- | --- |
+|  1 | TEOS Civic Mixer   | Wallet analytics & token routing | `Teos-Civic-Mixer`                            | ![★](https://img.shields.io/github/stars/Elmahrosa/Teos-Civic-Mixer)                            | `civic-mixer`  | 10  |
+|  2 | ASK TEOS AI        | AI sovereign gateway             | `Ask-Teos-AI`                                 | ![★](https://img.shields.io/github/stars/Elmahrosa/Ask-Teos-AI)                                 | `ask-teos-ai`  | 16  |
+|  3 | MINE-TEOS          | Civic mining UX                  | `TEOS-MINER-TELEGRAM-BOT`                     | ![★](https://img.shields.io/github/stars/Elmahrosa/TEOS-MINER-TELEGRAM-BOT)                     | `mine-teos`    | 8   |
+|  4 | TEOS BankChain     | Regulated financial backbone     | `Teos-Bankchain`                              | ![★](https://img.shields.io/github/stars/Elmahrosa/Teos-Bankchain)                              | `bankchain`    | 9   |
+|  5 | TEOS Pi Taxi       | Mobility & Pi payments           | `TeosPiTaxi`                                  | ![★](https://img.shields.io/github/stars/Elmahrosa/TeosPiTaxi)                                  | `pi-taxi`      | 11  |
+|  6 | Civic Ledger       | Governance audit chain           | `International-Civic-Blockchain-Constitution` | ![★](https://img.shields.io/github/stars/Elmahrosa/International-Civic-Blockchain-Constitution) | `civic-ledger` | 16  |
+|  7 | TEOS Smart City    | DPI identity & payments          | `Teos-Pi-Smart-City`                          | ![★](https://img.shields.io/github/stars/Elmahrosa/Teos-Pi-Smart-City)                          | `smart-city`   | 11  |
+|  8 | Bank of Pi Egypt   | Regulated Pi banking UX          | `Teos-Bankchain-Mobile`                       | ![★](https://img.shields.io/github/stars/Elmahrosa/Teos-Bankchain-Mobile)                       | `bank-of-pi`   | 9   |
+|  9 | eMap of Pi         | Pi ecosystem intelligence        | `Elmahrosa-Map-of-PI`                         | ![★](https://img.shields.io/github/stars/Elmahrosa/Elmahrosa-Map-of-PI)                         | `map-of-pi`    | 9   |
+| 10 | TEOS Wallet        | Sovereign non-custodial wallet   | `TeosWallet`                                  | ![★](https://img.shields.io/github/stars/Elmahrosa/TeosWallet)                                  | `teos-wallet`  | 10  |
+| 11 | Nilex DEX          | Civic liquidity & swaps          | `Nilex`                                       | ![★](https://img.shields.io/github/stars/Elmahrosa/Nilex)                                       | `nilex`        | 8   |
+| 12 | TEOS Pump          | Cultural token launchpad         | `TeosPump`                                    | ![★](https://img.shields.io/github/stars/Elmahrosa/TeosPump)                                    | `teos-pump`    | 11  |
+| 13 | TGR Gold Reserve   | Gold-backed civic token          | `Teos-Gold-Reserve`                           | ![★](https://img.shields.io/github/stars/Elmahrosa/Teos-Gold-Reserve)                           | `tgr`          | 12  |
+| 14 | Elmahrosa Mining   | Validator transparency           | `Elmahrosa-Mining-App`                        | ![★](https://img.shields.io/github/stars/Elmahrosa/Elmahrosa-Mining-App)                        | `mining`       | 8   |
+| 15 | FPBE Pi Misr Bank  | National Pi compliance layer     | `FPBE-First-Pimisr-Bank-Elmahrosa`            | ![★](https://img.shields.io/github/stars/Elmahrosa/FPBE-First-Pimisr-Bank-Elmahrosa)            | `pi-misr-bank` | 9   |
+| 16 | TEOS NFT Generator | Pi NFT minting + AI assets       | `TEOS-NFT-AI-Generator`                       | ![★](https://img.shields.io/github/stars/Elmahrosa/TEOS-NFT-AI-Generator)                       | `teos-nft`     | 9   |
+| 17 | Civic Gaza         | Identity & reconstruction        | `Digital-Reconstruction-of-Gaza`              | ![★](https://img.shields.io/github/stars/Elmahrosa/Digital-Reconstruction-of-Gaza)              | `civic-gaza`   | 16  |
 
 ---
 
-## 🛠 Core Technology Stack
+## 🔗 Interoperability
 
-| Layer | Stack |
-|---|---|
-| Core Contracts | **Solana Anchor · Rust** |
-| API & Compliance | **Node.js / Optional Flask** |
-| SDKs | **Rust & TypeScript** |
-| Frontend Demos | **React · Tailwind · Pi SDK** |
-| Interoperability | **Wormhole · Axelar · LayerZero · CCTP** |
+* **Primary Core:** Solana (Anchor / Rust)
+* **EVM Chains:** Ethereum · BNB Chain · Polygon · Arbitrum · Base
+* **Certified Bridges:** Wormhole · Axelar · LayerZero · CCTP
 
 ---
 
-## 🛡 Security Policy
+## 🛡 Security & Disclosure
 
-For responsible vulnerability disclosure, refer to `SECURITY.md` in the sovereign repo.
+For responsible vulnerability reporting and module classification, see `SECURITY.md`.
 
 ---
 
 ## 👤 Founder & Authority
 
-**Ayman Seif**  
-Founder & Chief Architect — *El-Mahrosa International*  
-- 📧 `ayman@teosegypt.com`  
-- 📞 `+20 100 616 7293`  
-- GitHub: `Elmahrosa` organization  
-- LinkedIn: `Ayman Seif`
+**Ayman Seif**
+Founder & Chief Architect — *El-Mahrosa International*
+
+* 📧 `ayman@teosegypt.com`
+* 📞 `+20 100 616 7293`
+* GitHub: `Elmahrosa` organization
+* LinkedIn: `Ayman Seif`
 
 ---
 
 ## 📜 License & IP Enforcement
 
-### Dual Sovereign Licensing Model
+### Dual Sovereign Licensing
 
-1. **PolyForm Non-Commercial License**  
-   → For research, education, and public demonstration only.
-2. **TEOS Sovereign License (TESL)**  
-   → Mandatory for any commercial, institutional, or government deployment.
+1. **PolyForm Non-Commercial (NC)** → Research & education only
+2. **TEOS Sovereign License (TESL)** → Mandatory for commercial, institutional, or government deployment
 
-⚠️ **Unauthorized use is legally enforceable under sovereign IP protection.**
+⚠️ Unauthorized usage is **legally enforceable under sovereign intellectual property protection**.
 
 ---
 
-**Made with pride in Egypt 🇪🇬 — for civic impact and digital sovereignty.**
+**Built with pride in Egypt 🇪🇬 — designed for global trust, civic impact, and sovereign resilience.**
+
 ```
 
 ---
